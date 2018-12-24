@@ -4,7 +4,7 @@ public class FatorialRecursivo{
 		if(n == 0)
 			return 1;
 
-		return n * calcularFatorialRecurso(n-1);
+		return n * calcularFatorialRecursivo(n-1);
 	}
 
 	public static void main (String[] args){
